@@ -74,7 +74,7 @@ p code {
 h1 {
   color: #151515;
   font-family: "Merriweather", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
-  font-size: 16px;
+  font-size: 24px;
   font-weight: 400;
   line-height: 42px;
   margin: 0;
@@ -86,7 +86,7 @@ article.preview,
 a.archive-link,
 .article-nav {
   margin: 20px auto;
-  max-width: 600px;
+  max-width: 510px;
   width: 90%;
 }
 #site-head img {
@@ -289,7 +289,7 @@ nav {
   margin-bottom: 2em;
   text-align: center;
   margin: 20px auto 2em auto;
-  max-width: 600px;
+  max-width: 510px;
 }
 nav ul {
   list-style: none;
