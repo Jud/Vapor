@@ -10,10 +10,10 @@
 @bodyBackgroundColor: #ffffff;
 @baseFontFamily: "Merriweather", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
 @baseFontColor: #7f8c8d;
-@headerFontFamily: "Roboto Slab", @baseFontFamily;
+@headerFontFamily: @baseFontFamily;
 @headerFontColor: #151515;
 @headerLinkColor: @headerFontColor;
-@secondaryFontFamily: "Open Sans Condensed", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
+@secondaryFontFamily: @baseFontFamily;
 @preFontFamily: "Consolas", Courier, monospace;
 @tableFontFamily: "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
 @linkColor: #3498db;
@@ -248,11 +248,10 @@ blockquote {
 .post-meta {
     color: @postmetaColor;
     font-family: @secondaryFontFamily;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 300;
     margin-top: 1em;
     margin-bottom: 1.2em;
-    text-transform: uppercase;
 }
 
 .tags {
