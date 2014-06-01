@@ -278,7 +278,6 @@ footer section {
   font-size: 12px;
   margin: 0 auto;
   max-width: 600px;
-  text-transform: uppercase;
   width: 90%;
 }
 footer.post-footer {
@@ -309,7 +308,6 @@ nav ul li {
   margin: 0;
   padding: 0 .5em;
   text-align: center;
-  text-transform: uppercase;
 }
 nav ul li a {
   display: block;
@@ -354,14 +352,12 @@ a.archive-link {
   margin-top: 3em;
   padding: .5em 0;
   text-align: center;
-  text-transform: uppercase;
 }
 .pagination {
   position: relative;
   width: 90%;
   max-width: 600px;
   font-family: "Open Sans Condensed", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
-  text-transform: uppercase;
   font-size: 20px;
   color: #7f8c8d;
   text-align: center;
