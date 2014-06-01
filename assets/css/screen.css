@@ -4,7 +4,7 @@
 body {
   background-color: #ffffff;
   color: #7f8c8d;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 100;
   line-height: 1.6em;
   margin: 0;
@@ -43,7 +43,7 @@ p,
 li,
 dt,
 dd {
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 100;
   line-height: 30px;
 }
@@ -55,7 +55,7 @@ li {
 }
 pre {
   font-family: "Consolas", Courier, monospace;
-  font-size: 1em;
+  font-size: 14px;
   line-height: 1.2em;
   padding: 1em;
   white-space: pre;
@@ -68,13 +68,13 @@ pre {
 }
 p code {
   font-family: "Consolas", Courier, monospace;
-  font-size: .8em;
+  font-size: 14px;
   line-height: 1.2em;
 }
 h1 {
   color: #151515;
   font-family: "Merriweather", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
-  font-size: 36px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 42px;
   margin: 0;
@@ -167,7 +167,7 @@ section.author h4 {
 }
 section.author p.attr,
 section.share p.info {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 20px;
   text-transform: uppercase;
   font-family: "Merriweather", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
@@ -183,7 +183,7 @@ section.share p.info {
   display: inline-block;
 }
 section.author p.bio {
-  font-size: 16px;
+  font-size: 14px;
   margin-left: 82px;
   line-height: 1.4em;
 }
@@ -209,13 +209,13 @@ blockquote p {
 .post-meta {
   color: #95a5a6;
   font-family: "Merriweather", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 300;
   margin-top: 1em;
   margin-bottom: 1.2em;
 }
 .tags {
-  font-size: 16px;
+  font-size: 14px;
   margin-bottom: 0.6em;
 }
 div.authorimage {
@@ -302,7 +302,7 @@ nav ul {
 nav ul li {
   display: inline-block;
   font-family: "Merriweather", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 300;
   margin: 0;
   padding: 0 .5em;
@@ -345,7 +345,7 @@ a.archive-link {
   border-top: 1px solid #ecf0f1;
   display: block;
   font-family: "Merriweather", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
-  font-size: 24px;
+  font-size: 14px;
   font-weight: 300;
   margin-bottom: 3em;
   margin-top: 3em;
@@ -357,7 +357,7 @@ a.archive-link {
   width: 90%;
   max-width: 600px;
   font-family: "Merriweather", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
-  font-size: 20px;
+  font-size: 14px;
   color: #7f8c8d;
   text-align: center;
   padding: 0.5em 0;

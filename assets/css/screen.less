@@ -23,6 +23,9 @@
 @postmetaColor: #95a5a6;
 @gistBackgroundColor: #fdfdfd;
 
+@bodyFontSize: 14px;
+@headingFontSize: 16px;
+
 @maxPageWidth: 600px;
 
 // Styles
@@ -32,7 +35,7 @@
 body {
     background-color: @bodyBackgroundColor;
     color: @baseFontColor;
-    font-size: 15px;
+    font-size: @bodyFontSize;
     font-weight: 100;
     line-height: 1.6em;
     margin: 0;
@@ -64,7 +67,7 @@ a:focus, a:hover {
 }
 
 p, li, dt, dd {
-    font-size: 18px;
+    font-size: @bodyFontSize;
     font-weight: 100;
     line-height: 30px;
 }
@@ -79,7 +82,7 @@ li {
 
 pre {
     font-family: @preFontFamily;
-    font-size: 1em;
+    font-size: @bodyFontSize;
     line-height: 1.2em;
     padding: 1em;
     white-space: pre;
@@ -93,14 +96,14 @@ pre {
 
 p code {
     font-family: @preFontFamily;
-    font-size: .8em;
+    font-size: @bodyFontSize;
     line-height: 1.2em;
 }
 
 h1 {
     color: @headerFontColor;
     font-family: @headerFontFamily;
-    font-size: 36px;
+    font-size: @headingFontSize;
     font-weight: 400;
     line-height: 42px;
     margin: 0;
@@ -199,7 +202,7 @@ section.author h4 {
 }
 
 section.author p.attr, section.share p.info {
-    font-size: 16px;
+    font-size: @bodyFontSize;
     line-height: 20px;
     text-transform: uppercase;
     font-family: @secondaryFontFamily;
@@ -219,7 +222,7 @@ section.share p.info {
 }
 
 section.author p.bio {
-    font-size: 16px;
+    font-size: @bodyFontSize;
     margin-left: 82px;
     line-height: 1.4em;
 }
@@ -248,14 +251,14 @@ blockquote {
 .post-meta {
     color: @postmetaColor;
     font-family: @secondaryFontFamily;
-    font-size: 16px;
+    font-size: @bodyFontSize;
     font-weight: 300;
     margin-top: 1em;
     margin-bottom: 1.2em;
 }
 
 .tags {
-    font-size: 16px;
+    font-size: @bodyFontSize;
     margin-bottom: 0.6em;
 }
 
@@ -353,7 +356,7 @@ nav {
         li {
             display: inline-block;
             font-family: @secondaryFontFamily;
-            font-size: 18px;
+            font-size: @bodyFontSize;
             font-weight: 300;
             margin: 0;
             padding: 0 .5em;
@@ -378,7 +381,7 @@ nav {
         }
     }
     &.pagination {
-        font-size: 14px;
+        font-size: @bodyFontSize;
         li {
             &:first-child {
                 margin-left: 0;
@@ -399,7 +402,7 @@ a.archive-link {
     border-top: 1px solid @borderColor;
     display: block;
     font-family: @secondaryFontFamily;
-    font-size: 24px;
+    font-size: @bodyFontSize;
     font-weight: 300;
     margin-bottom: 3em;
     margin-top: 3em;
@@ -412,7 +415,7 @@ a.archive-link {
     width: 90%;
     max-width: 600px;
     font-family: @secondaryFontFamily;
-    font-size: 20px;
+    font-size: @bodyFontSize;
     color: @baseFontColor;
     text-align: center;
     padding: 0.5em 0;
