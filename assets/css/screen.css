@@ -268,7 +268,6 @@ img.userimage {
 }
 /* === Footer === */
 footer {
-  background: rgba(0, 0, 0, 0.05);
   margin: 4em 0 0;
   padding: 2em 0;
   text-align: center;
@@ -276,7 +275,7 @@ footer {
 footer section {
   font-family: "Open Sans Condensed", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
   font-weight: 300;
-  font-size: 18px;
+  font-size: 12px;
   margin: 0 auto;
   max-width: 600px;
   text-transform: uppercase;
