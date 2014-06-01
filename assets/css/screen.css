@@ -112,7 +112,6 @@ article.preview p.readmore {
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  -webkit-background-size: cover !important;
   background-size: cover !important;
   background-position: center center !important;
   background-color: #ffffff;
@@ -224,7 +223,6 @@ div.authorimage {
   width: 70px;
   height: 70px;
   border-radius: 50%;
-  -webkit-background-size: cover !important;
   background-size: cover !important;
   background-position: center center !important;
   margin-right: 10px;
@@ -291,8 +289,6 @@ footer.post-footer {
 }
 /* === Navigation and Pagination === */
 nav {
-  border-bottom: 1px solid #ecf0f1;
-  border-top: 1px solid #ecf0f1;
   margin-bottom: 2em;
   text-align: center;
   margin: 20px auto 2em auto;
@@ -334,6 +330,9 @@ nav.menu li:last-child {
   nav.menu li {
     display: block;
   }
+}
+nav.pagination {
+  font-size: 14px;
 }
 nav.pagination li:first-child {
   margin-left: 0;
